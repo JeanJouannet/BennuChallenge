@@ -22,13 +22,17 @@ public class Main {
                     FolderFileManager.createTxtFile(name);
                 }
                 case 2 -> {
-
+                    FolderFileManager.addRandomNumberToATxtFile();
                 }
                 case 3 -> {
-                    FolderFileManager.listTxtFilesToSelectAndRead();
+                    FolderFileManager.selectFileAndRead();
                 }
-                case 4 -> {}
-                case 5 -> {}
+                case 4 -> {
+                    FileSorter.sortFileWithInsertion();
+                }
+                case 5 -> {
+                    FileSearcher.searchNumberInFile();
+                }
                 case 6 -> {}
 
             }
