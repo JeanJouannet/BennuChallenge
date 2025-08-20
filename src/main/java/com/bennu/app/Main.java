@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Menu menu = new Menu();
         Banner.printBanner();
-        System.out.println("Bienvenido al generador de numeros aleatorios de Bennu, porfavor seleccione una opción.");
+        System.out.println("Bienvenido al generador de numeros aleatorios de Bennu.");
         int option;
         do{
             menu.showMenu();
